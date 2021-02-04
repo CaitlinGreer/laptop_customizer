@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import slugify from 'slugify';
 import './FeatureItem.css';
-
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  });
 
 class FeatureItem extends Component {
     render() {

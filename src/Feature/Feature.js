@@ -3,7 +3,7 @@ import slugify from 'slugify';
 import './Feature.css';
 import FeatureItem from '../FeatureItem/FeatureItem';
 
-class Feature extends React.Component {
+class Feature extends Component {
   render() {
     const features = Object.keys(this.props.features).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
@@ -44,4 +44,4 @@ class Feature extends React.Component {
   }
 }
 
-export default Feature
+export default Feature;

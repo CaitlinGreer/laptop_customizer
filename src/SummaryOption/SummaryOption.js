@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './SummaryOption.css';
+import React from 'react'
+import './SummaryOption.css'
 
-class SummaryOption extends Component {
+class SummaryOption extends React.Component {
   render() {
     const summary = Object.keys(this.props.selected).map((feature, idx) => {
       const featureHash = feature + '-' + idx;

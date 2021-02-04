@@ -13,8 +13,8 @@ class MainSummary extends Component {
                 USCurrencyFormat={this.props.USCurrencyFormat}
             />
             <SummaryTotal 
-                sumTotal={this.props.mainTotal}
                 USCurrencyFormat={this.props.USCurrencyFormat}
+                selected={this.props.selected} 
                 />
         </section>
       );

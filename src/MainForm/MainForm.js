@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Feature from '../FeatureItem/FeatureItem'
+import Feature from '../Feature/Feature'
 import './MainForm.css'
 
 
