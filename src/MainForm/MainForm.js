@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Feature from '../Feature/Feature'
 import './MainForm.css'
 
 
-class MainForm extends Component {
+class MainForm extends React.Component {
   render() {
     return (
       <form className="main__form"> 

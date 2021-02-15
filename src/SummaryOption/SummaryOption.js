@@ -26,4 +26,4 @@ class SummaryOption extends React.Component {
   }
 }
 
-export default SummaryOption;
+export default SummaryOption
